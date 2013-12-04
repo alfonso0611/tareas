@@ -1,0 +1,33 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Herencia
+{
+    class Hijo: Padre
+    {
+    }
+}
+
+
+
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Herencia
+{
+    class Padre
+    {
+        public string nombre;
+        public Padre()
+        {
+            nombre = "Juan";
+        }
+       
+    }
+}
